@@ -1,0 +1,2 @@
+# Manually load the driver for a Realtek ethernet card
+kldload /usr/obj/usr/src/amd64.amd64/sys/modules/re/if_re.ko
