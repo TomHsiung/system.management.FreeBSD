@@ -8,3 +8,6 @@ make pretty-print-run-depends-list
 
 # Install the default configuration so no need to confirm the configuration manually one by one (dependent package)
 make -DBATCH install clean
+
+# Installing Dependencies with pkg(8)
+make install-missing-packages
