@@ -1,0 +1,2 @@
+# Print the IPv4 route table
+netstat -nr -f inet
