@@ -1,0 +1,1 @@
+tshark -i eth0 -c 10000 -F pcap -w data.pcap
