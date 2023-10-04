@@ -1,4 +1,5 @@
 tshark -i eth0 -c 10000 -F pcap -w data.pcap
+tshark -i eth0 -w data.pcap -a duration:60 -F pcap
 
 # Important! Ethernet(s) must be configured in /etc/rc.conf before it/they are able to capture packages.
 
