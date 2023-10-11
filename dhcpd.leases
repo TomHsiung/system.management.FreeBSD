@@ -1,0 +1,2 @@
+# This file contains information of dhcpd assigned clients
+/var/db/dhcpd/dhcpd.leases
