@@ -1,0 +1,19 @@
+# Prerequisites - kernel configuration modificaiton by adding two lines, then compile the kernel
+
+options 	TCPHPTS		# BBR requirements
+makeoptions 	WITH_EXTRA_TCP_STACKS=1		# BBR requirements
+
+# Edit /boot/loader.conf, add line
+tcp_bbr_load="YES"
+
+# Edit /etc/sysctl.conf, add line
+net.inet.tcp.functions_default=bbr
+
+# Reboot
+
+# Outcome of success
+root@host1:~ # sysctl net.inet.tcp.functions_available
+net.inet.tcp.functions_available: 
+Stack                           D Alias                            PCB count
+freebsd                           freebsd                          0
+bbr                             * bbr                              4
