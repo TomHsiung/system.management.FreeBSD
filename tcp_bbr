@@ -1,3 +1,5 @@
+# IMPORTANT: Backup /usr/src/sys/amd64/conf/GENERIC to ~ directory
+
 # Prerequisites - kernel configuration modificaiton by adding two lines, then compile the kernel
 
 options 	TCPHPTS		# BBR requirements
