@@ -1,0 +1,14 @@
+# Error
+# Starting vnstat.
+# Error: Failed to open database "/var/db/vnstat/vnstat.db" in read/write mode.
+# Exiting...
+
+# Fix
+vnstatd -d
+No interfaces found in database, adding available interfaces...
+Interface "eth0" added with 10000 Mbit bandwidth limit.
+Interface "eth1" added with 10000 Mbit bandwidth limit.
+Interface "eth2" added with 1000 Mbit bandwidth limit.
+-> 3 new interfaces found.
+Limits can be modified using the configuration file. See "man vnstat.conf".
+Unwanted interfaces can be removed from monitoring with "vnstat --remove".
