@@ -1,0 +1,8 @@
+# Update the Ports Tree
+portsnap fetch
+
+# Extract the Ports Tree
+portsnap extract
+
+# Check for Updates
+portsnap update
