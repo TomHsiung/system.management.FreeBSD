@@ -1,0 +1,2 @@
+# Rebuild of all installed applications wihtout user interaction
+portmaster -afG
