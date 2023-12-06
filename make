@@ -11,3 +11,6 @@ make -DBATCH install clean
 
 # Installing Dependencies with pkg(8)
 make install-missing-packages
+
+# Uninstallaion
+make deinstall
