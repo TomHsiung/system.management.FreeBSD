@@ -1,2 +1,12 @@
 # Rebuild of all installed applications wihtout user interaction
 portmaster -afG
+
+# Explanation
+-a  check all ports, update as necessary
+
+-G  prevents 'make config'
+
+[-R] -f
+	   always rebuild ports	(overrides -i)
+
+-i  interactive update mode -- ask whether to rebuild ports
