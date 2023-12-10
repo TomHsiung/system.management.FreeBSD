@@ -1,4 +1,8 @@
-# Update examples
+freebsd-update fetch
+freebsd-update install
+
+# Minor upgrade
 freebsd-update -r 13.2-RELEASE upgrade
 
+# Major upgrade
 freebsd-update -r 14.0-RELEASE upgrade
