@@ -6,3 +6,6 @@ freebsd-update -r 13.2-RELEASE upgrade
 
 # Major upgrade
 freebsd-update -r 14.0-RELEASE upgrade
+
+# Final after reboot
+/usr/sbin/freebsd-update install
