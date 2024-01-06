@@ -3,3 +3,6 @@ cd /usr/ports/multimedia
 
 #Step 2
 make -DBATCH install clean
+
+#Step 3 Add the following line into /etc/rc.conf
+plexmediaserver_enable=YES
