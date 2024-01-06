@@ -1,0 +1,5 @@
+#Step 1
+cd /usr/ports/multimedia
+
+#Step 2
+make -DBATCH install clean
