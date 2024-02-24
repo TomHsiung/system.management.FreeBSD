@@ -1,0 +1,7 @@
+# Display all users and usergroups
+pw usershow -a
+pw groupshow -a
+
+# Delete a user or a usergroup, using plex as an example
+pw user del plex
+pw group del plex
