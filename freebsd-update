@@ -1,4 +1,6 @@
+# Check latest FreeBSD update
 freebsd-update fetch
+
 freebsd-update install
 
 # Minor upgrade
