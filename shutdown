@@ -1,0 +1,2 @@
+# Shut down the host immediately
+shutdown -p now
