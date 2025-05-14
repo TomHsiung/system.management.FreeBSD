@@ -1,0 +1,1 @@
+rsync --partial --recursive --progress /source/path /target/path
