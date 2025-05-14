@@ -1,2 +1,6 @@
+# Load packages for AMD or Intel chip, respectively
+kldload amdtemp
+kldload coretemp
+
 # Check CPU temperature
 sysctl dev.cpu | grep temperature
