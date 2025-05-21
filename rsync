@@ -1,1 +1,1 @@
-rsync --partial --recursive --progress ----human-readable /source/path /target/path
+rsync --partial --recursive --progress --human-readable /source/path /target/path
