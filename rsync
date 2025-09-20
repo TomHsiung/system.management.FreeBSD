@@ -1,1 +1,2 @@
 rsync --partial --recursive --progress --human-readable /source/path /target/path
+rsync --partial --recursive -a --info=progress2 /Path/Squid\ Game\ \(2021\)\ S03\ \(1080p\ NF\ WEB-DL\ x265\ 10bit\ EAC3\ 5.1\ Korean\ Silence\) username@192.168.1.1:/Path/
